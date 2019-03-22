@@ -4,7 +4,7 @@ A Python implementation of SSHv2
 # Installation of paramiko
 pip install paramiko
 
-Let’s get on with it
+# Getting started
 
 The primary client of Paramiko as documented in the API, is Paramiko.SSHClient. An instance of the Paramiko.SSHClient can be used to make connections to the remote server and transfer files
 

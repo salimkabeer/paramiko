@@ -1,7 +1,7 @@
 # paramiko
 A Python implementation of SSHv2
 
-Installation of paramiko
+# Installation of paramiko
 pip install paramiko
 
 Let’s get on with it

@@ -2,7 +2,8 @@
 A Python implementation of SSHv2
 
 Installation of paramiko
-pip install paramiko
+pip install paramiko=2.4.2
+pip install cryptography=2.4.2 (If error msg appeared)
 
 Let’s get on with it
 

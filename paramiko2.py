@@ -10,7 +10,7 @@ presentDir= os.path.abspath(os.path.dirname(__file__))
 
 ssh_client = paramiko.SSHClient()
 ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy)
-ssh_client.connect(hostname='10.47.12.77', username='sa186063',
+ssh_client.connect(hostname='10.47.12', username='sa186063',
                   password='Docker@123')
 
 localfilepath = presentDir + '/README.md'

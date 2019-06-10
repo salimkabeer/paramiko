@@ -1,0 +1,16 @@
+The SSH connection is implemented using a client-server model. 
+To establish a connection the server should be running and 
+clients generally authenticated either using passwords or SSH
+keys. Password Authentication is simple and straightforward. 
+To authenticate using SSH keys, a user must have an SSH key pair
+(Public and Private key). On the remote server, the list of 
+public keys is maintained (usually) in the ~/.ssh/authorized_keys
+directory. When the client connects to the remote server using 
+the public key, the server checks for it and sends an encrypted
+message which can only be decrypted with the associated private 
+key at the client side. We will be using a Python module called 
+Paramiko. The Paramiko module gives an abstraction of the SSHv2 
+protocol with both the client side and server side functionality. 
+As a client, you can authenticate yourself using a password or key 
+and as a server, you can decide which users are allowed access and
+the channels you allow.
